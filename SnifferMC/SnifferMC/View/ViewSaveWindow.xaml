@@ -1,0 +1,46 @@
+﻿<Window x:Class="SnifferMC.ViewSaveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:user="clr-namespace:SnifferMC"
+        Title="Save Window" Height="168" Width="341" Background="#FFB5FFC3">
+    <Window.DataContext>
+        <user:ViewSaveModel/>
+    </Window.DataContext>
+    <Grid>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="248,106,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFA0CF5D" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Command="{Binding ButtonSave}" Content="Save" HorizontalAlignment="Left" Margin="168,106,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FF9FD354" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox Text="{Binding Directory}" HorizontalAlignment="Left" Height="48" Margin="115,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" ScrollViewer.CanContentScroll="True">
+        </TextBox>
+        <Button Command="{Binding ButtonAddDir}" Content="Add Dir" HorizontalAlignment="Left" Margin="248,79,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFAFDE6C" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image Source="{Binding DisplayedImagePath}" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+        <Label Content="Directory Path" HorizontalAlignment="Left" Margin="115,0,0,0" VerticalAlignment="Top" Width="91"/>
+
+    </Grid>
+</Window>
