@@ -14,6 +14,7 @@ using System.Threading;
 using System.Timers;
 using System.Windows.Forms;
 using System.Windows.Input;
+using System.Windows.Threading;
 
 namespace SnifferMC
 {
@@ -23,13 +24,17 @@ namespace SnifferMC
         private System.Object lockThis = new System.Object(); // for lock
         private NetworkInterface[] adapters;// list of Net adapters
         private NetworkInterface adapter;
-        private System.Timers.Timer timer;// taimer for update information
-        private const double timerUpdate = 1000; //taimer update tame
+        private DispatcherTimer timer;// taimer for update information
+        private DispatcherTimer timerForChart;// taimer for update information
+        //  private const double timerUpdate = 1000; //taimer update tame
         private static volatile bool statusOfWork = true; //status of update information in Tabel
         private static List<IPAddreData> _listViewBoxBuffer = new List<IPAddreData>();//buffering information before insert in the table
         private static ObservableCollection<IPAddreData> _listViewBox = new ObservableCollection<IPAddreData>();//Table listener
         private ObservableCollection<String> _comboBoxList = new ObservableCollection<String>(); //information for comBoBox whit Net adapters
 
+        private ObservableCollection<KeyValuePair<string, long>> _loadData = new ObservableCollection<KeyValuePair<string, long>>();
+        private ObservableCollection<KeyValuePair<string, long>> _sendData = new ObservableCollection<KeyValuePair<string, long>>();
+       
         private string _selectedItem;  // selected Item from comboBoxList
 
         private string _interfaceType;
@@ -73,11 +78,23 @@ namespace SnifferMC
         /// </summary>
         private void initTaimer()
         {
-            timer = new System.Timers.Timer(timerUpdate);
-            timer.Elapsed += new ElapsedEventHandler(timer_Tick);
-            timer.Enabled = true;
+            this.timer = new DispatcherTimer();
+            timer.Interval = new TimeSpan(100000);
+            timer.Tick += new EventHandler(timer_Tick);
             timer.Start();
-        }//initTaimer
+        }
+        /// <summary>
+        /// Initialize work of Taimers
+        /// </summary>
+        private void initTaimerForChart()
+        {
+            this.timerForChart = new DispatcherTimer();
+            timerForChart.Interval = new TimeSpan(0, 0, 3);
+            timerForChart.Tick += new EventHandler(timer_Tick_Char);
+            timerForChart.Start();
+        }
+
+
         /// <summary>
         /// Initialize base configuration
         /// </summary>
@@ -176,22 +193,37 @@ namespace SnifferMC
                         sck.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(OnReceive), null); //listen some more
                     }
                 }
-                catch (Exception e) 
+                catch (Exception e)
                 {
                     string caption = "Ups! We have a Problem!";
                     string message = "ArgumentOutOfRangeException : " + e.Message;
-                    DialogResult result = System.Windows.Forms.MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Error); 
+                    DialogResult result = System.Windows.Forms.MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             // begin listening to the socket
             sck.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(OnReceive), null);
         }
         /// <summary>
+        /// update information in Chart by timer interrupt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void timer_Tick_Char(object sender, EventArgs e)
+        {
+            if (LoadData.Count > 3)
+                LoadData.Clear();
+            if (SendData.Count > 3)
+                SendData.Clear();
+            IPv4InterfaceStatistics interfaceStatistic = adapter.GetIPv4Statistics();
+            LoadData.Add(new KeyValuePair<string, long>(DateTime.Now.ToString().Replace(':', ' '), interfaceStatistic.BytesReceived));
+            SendData.Add(new KeyValuePair<string, long>(DateTime.Now.ToString().Replace(':', ' '), interfaceStatistic.BytesSent));
+        }
+        /// <summary>
         /// update information in Table by timer interrupt
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void timer_Tick(object sender, ElapsedEventArgs e)
+        private void timer_Tick(object sender, EventArgs e)
         {
             try
             {
@@ -226,6 +258,8 @@ namespace SnifferMC
                 }
             }
             catch (ArgumentNullException ee) { InfoPanel += String.Format("{0} : Error : {1} \n", DateTime.Now, ee.Message); }
+            catch (InvalidOperationException ee) { InfoPanel += String.Format("{0} : Error : {1} \n", DateTime.Now, ee.Message); }
+            
         }//timer_Tick
         public ICommand SortStandart
         {
@@ -493,6 +527,18 @@ namespace SnifferMC
             get { lock (lockThis) { return _listViewBox; } }
             set { lock (lockThis) { _listViewBox = value; RaisePropertyChanged(() => ListViewBox); } }
         }
+        public ObservableCollection<KeyValuePair<string, long>> LoadData
+        {
+            get { lock (lockThis) { return _loadData; } }
+            set { lock (lockThis) { _loadData = value; RaisePropertyChanged(() => LoadData); } }
+        }
+        public ObservableCollection<KeyValuePair<string, long>> SendData
+        {
+
+            get { lock (lockThis) { return _sendData; } }
+            set { lock (lockThis) { _sendData = value; RaisePropertyChanged(() => SendData); } }
+        }
+
         public ObservableCollection<String> ComboBoxList
         {
             get { return _comboBoxList; }
@@ -501,7 +547,7 @@ namespace SnifferMC
         public String SelectedItem
         {
             get { return _selectedItem; }
-            set { _selectedItem = value; RaisePropertyChanged(() => SelectedItem); Name = SelectedItem; IniDiscription(); initTaimer(); /*statusOfWork = true;*/ InfoPanel += String.Format("{0} : Selected Interfase - {1} \n", DateTime.Now, Name); }
+            set { _selectedItem = value; RaisePropertyChanged(() => SelectedItem); Name = SelectedItem; IniDiscription(); initTaimer(); initTaimerForChart();/*statusOfWork = true;*/ InfoPanel += String.Format("{0} : Selected Interfase - {1} \n", DateTime.Now, Name); }
 
         }
         public String InfoPanel

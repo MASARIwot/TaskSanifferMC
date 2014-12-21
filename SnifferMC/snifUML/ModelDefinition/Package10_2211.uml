@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="294bb21f-6f0a-45e7-8293-9cac59e9625c"
+  name="Net"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e0ec647e-5cce-44ee-a590-bddc52a2c466"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Net"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1532a342-7401-4678-8b3b-429a2db85cd2"
+        name="IPAddress"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="30603cc7-17db-44ec-a31e-12180941d006"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.Net Type%3DIPAddress"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5b168d61-75a3-44b2-88b2-f37b6ae1c583"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f391d770-e0fb-4d47-a4ea-a9eed9687120">
+                <propertyInstance
+                  Id="a67f7e6e-e535-4219-b224-dbaa2b61e7f2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3eb842b9-d416-457c-a372-f298234d0b56">
+                <propertyInstance
+                  Id="edde48cf-5a6b-4c5e-b304-7e72635e2cd2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a40d2dd-8e51-442f-be58-4e792b2ef767">
+                <propertyInstance
+                  Id="3d399200-fea1-48d8-bacd-244315b6d4b3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b0a42450-519b-4ecc-8733-67dc07c2b937">
+                <propertyInstance
+                  Id="4ee97aa5-223b-4870-854e-37b19e5cdeb2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="874ac983-0637-4fc9-880e-3461dc9c5f3e">
+                <propertyInstance
+                  Id="4dd8a4bc-a219-4265-9392-8ff9c1a7ff44"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="66a0260f-41d8-4fcd-ba08-ed78e1fcdd02"
+        LastKnownName="NetworkInformation"
+        LastKnownLocation="Package13_2211.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bca9040d-bc8c-4170-9a79-43cfb49dff1c"
+        LastKnownName="Sockets"
+        LastKnownLocation="Package20_2211.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

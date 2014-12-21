@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f296ef5e-1914-4e8e-8f40-bbe9a3921c74"
+  name="Excel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ec5b94b9-ad20-48c9-9fd6-5ff477e9a6b9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Office.Interop.Excel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="67ce5924-4fc6-4e9d-a301-66194861675b"
+        name="Worksheet"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="48a23736-0310-4c9a-ab7b-1b384f757a40"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FGame%2FMicrosoft Visual Studio 12.0%2FVisual Studio Tools for Office%2FPIA%2FOffice15%2FMicrosoft.Office.Interop.Excel.dll&quot; Namespace%3DMicrosoft.Office.Interop.Excel Type%3DWorksheet"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f16ae52c-d28f-400f-8741-122f3917c33d"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="23b20584-efbd-4c3b-8373-a9fa6b1bc8b5">
+                <propertyInstance
+                  Id="262b5469-2e26-455f-bb7e-af344a9dbb60"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e57d554f-37ef-4b18-80d8-1eb1afd5137f">
+                <propertyInstance
+                  Id="d4831684-b730-4cdc-a991-6ae605027482"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f816af5-a99e-4b69-961b-cccdb920f2ab">
+                <propertyInstance
+                  Id="8f852e7b-04d4-4a3e-aae5-55658323366c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75ed9f3e-9c9b-4a35-b0de-4e54e070870a">
+                <propertyInstance
+                  Id="428202e3-a82b-47b5-b16f-3e732a57cab5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ea0c3d53-a763-477f-a983-213648ea8730"
+        name="Application"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a19831dc-00c4-4ef1-b08c-c7c0313b3d81"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FGame%2FMicrosoft Visual Studio 12.0%2FVisual Studio Tools for Office%2FPIA%2FOffice15%2FMicrosoft.Office.Interop.Excel.dll&quot; Namespace%3DMicrosoft.Office.Interop.Excel Type%3DApplication"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6e169e07-4f95-43eb-a325-17958a18191d"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a79594b5-cdae-4b7a-95f4-eb4eabf2c79f">
+                <propertyInstance
+                  Id="e66b978f-fcab-4332-8fe5-ea8421f81198"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c38b2a94-8dd2-434e-a9cb-3e34403126d0">
+                <propertyInstance
+                  Id="78e12cfc-33f1-4f81-9de4-8aecee0c66cd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c40fd467-3dab-4103-b6c6-93768c3ce688">
+                <propertyInstance
+                  Id="b850f575-b981-4ff2-968d-e44af4ebf496"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="228a25f9-13ce-49a5-b7ae-fad4f3b3b484">
+                <propertyInstance
+                  Id="5ef4a629-ca94-4ed3-a43c-2a783b0731ea"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

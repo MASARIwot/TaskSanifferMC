@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IpDbDataModelStoreContainer" CdmEntityContainer="IpDataModel">
+    <EntitySetMapping Name="ipadapters_t">
+      <EntityTypeMapping TypeName="IpDbDataModel.IpAdapters">
+        <MappingFragment StoreEntitySet="ipadapters_t">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PortIn" ColumnName="PortIn" />
+          <ScalarProperty Name="PortOut" ColumnName="PortOut" />
+          <ScalarProperty Name="Protocol" ColumnName="Protocol" />
+          <ScalarProperty Name="UiSourceIPAddress" ColumnName="UiSourceIPAddress" />
+          <ScalarProperty Name="UiDestinationIPAddress" ColumnName="UiDestinationIPAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

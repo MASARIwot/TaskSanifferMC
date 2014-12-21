@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/GAME/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-12-14T22:47:11" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'b9341fbf-f4f2-4773-b10e-89335df52338' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'fb8dd31b-6190-49eb-a9f7-8b3341d67ee8' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::GalaSoft' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::GalaSoft::MvvmLight' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::GalaSoft::MvvmLight::ViewModelBase' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::Microsoft' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::Microsoft::Office' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::Microsoft::Office::Interop' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::Microsoft::Office::Interop::Excel' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::Microsoft::Office::Interop::Excel::Application' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::Microsoft::Office::Interop::Excel::Worksheet' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::App' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::App::App' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::App::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::App::Main' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::binaryDeserializer' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::binaryDeserializer::path' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::binarySerializer' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::binarySerializer::lsitIN' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::binarySerializer::path' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::DeserializeItem' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::DeserializeItem::fileName' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::DeserializeItem::formatter' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::FileWorker' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::SerializeItem' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::SerializeItem::fileName' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::SerializeItem::formatter' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::SerializeItem::lsitIN' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::xmlDeserializer' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::xmlDeserializer::path' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::xmlSerializer' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::xmlSerializer::lsitIN' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::FileWorker::xmlSerializer::path' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Resources' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Resources::Culture' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Resources::resourceCulture' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Resources::resourceMan' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Resources::ResourceManager' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Resources::Resources' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Settings' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Settings::Default' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Settings::defaultInstance' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Properties::Settings::Settings' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::Comparatos' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareProtocol' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareProtocol::one' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareProtocol::other' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareSourceAdress' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareSourceAdress::one' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareSourceAdress::other' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareToData' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareToData::one' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareToData::other' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareToPhoneNumber' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareToPhoneNumber::one' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::Comparatos::CompareToPhoneNumber::other' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::_listIPBoxBuffer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::_path' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::_workShee' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::exApp' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::FileExcelWorker' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::FileExcelWorker::listIPBoxBuffer' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::FileExcelWorker::path' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::init' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::makeRows' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::rowExcel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::Save' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::FileExcelWorker::SaveToExel' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::byDifferentiatedServices' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::byHeaderLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::byIPData' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::byProtocol' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::byTTL' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::byVersionAndHeaderLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Checksum' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Data' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::DestinationAddress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::DifferentiatedServices' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Equals' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Equals::obj' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Flags' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::FragmentationOffset' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::GetHashCode' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::HeaderLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Identification' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::IPAddreData' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::IPAddreData::byBuffer' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::IPAddreData::nReceived' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::MessageLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::PortIn' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::PortOut' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Protocol' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::sChecksum' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::SourceAddress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::TotalLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::TTL' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::uiDestinationIPAddress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::uiSourceIPAddress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::usFlagsAndOffset' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::usIdentification' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::usTotalLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::IPAddreData::Version' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad::_listIPBoxBuffer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad::clrListIPBoxBuffer' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad::instance' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad::Instance' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad::ListIPBoxBuffer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad::SessionLoad' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionLoad::syncRoot' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::_listIPBoxBuffer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::clrListIPBoxBuffer' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::instance' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::Instance' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::ListIPBoxBuffer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::Name' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::SessionSave' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::SessionSave::syncRoot' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::sort' -  (Enumeration)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::sort::MessageLength' -  (EnumerationLiteral)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::sort::NON' -  (EnumerationLiteral)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::sort::Protocol' -  (EnumerationLiteral)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::sort::RemoteAdress' -  (EnumerationLiteral)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::Resourse::sort::SourceAdress' -  (EnumerationLiteral)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::View' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::View::_contentLoaded' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::View::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::View::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::View::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::connectionId' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::View::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::target' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::View::View' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_clearTabel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_listViewBox' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_load' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_save' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_saveExcel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_sessionLoad' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_sessionSave' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_sortMessageLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_sortProtocol' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_sortRemoteAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_sortSourceAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::_sortStandart' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::ClearTabel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::CurentSort' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::DisplayFormThread' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::ListViewBox' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::Load' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::loader' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::problems0_o' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::problems0_o::e' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::Save' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::SaveExcel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::SaveExel' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::SortMessageLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::SortProtocol' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::SortRemoteAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::SortSourceAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::SortStandart' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderModel::ViewLoaderModel' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::_contentLoaded' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::MenuItem_Click_Exit' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::MenuItem_Click_Exit::e' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::MenuItem_Click_Exit::sender' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::connectionId' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::target' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewLoaderWindow::ViewLoaderWindow' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_buttonStart' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_buttonStop' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_bytesReceived' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_bytesSent' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_clear' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_clearTabel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_comboBoxList' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_discription' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_dnsServers' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_domen' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_infoPanel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_interfaceType' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_listViewBox' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_listViewBoxBuffer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_loadInformation' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_name' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_packetsReceived' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_packetsSent' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_saveInformation' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_selectedItem' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_session' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_sortMessageLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_sortProtocol' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_sortRemoteAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_sortSourceAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_sortStandart' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::_speed' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::adapter' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::adapters' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::ButtonStart' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::ButtonStop' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::BytesReceived' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::BytesSent' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::Clear' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::ClearTabel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::ComboBoxList' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::CurentSort' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::Discription' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::DisplayFormThread' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::DisplayFormThreadLoad' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::DNSservers' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::Domen' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::InfoPanel' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::IniDiscription' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::init' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::initTaimer' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::InterfaceType' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::ListViewBox' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::ListViewBoxUpdate' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::LoadInformation' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::lockThis' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::Name' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::PacketsReceived' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::PacketsSent' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::SaveInformation' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::SelectedItem' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::Sniff' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::Sniff::ip' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::SortMessageLength' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::SortProtocol' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::SortRemoteAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::SortSourceAdress' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::SortStandart' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::Speed' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::statusOfWork' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::timer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::timer_Tick' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::timer_Tick::e' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::timer_Tick::sender' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::timerUpdate' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewModel::ViewModel' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::_buttonAddDir' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::_buttonExit' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::_buttonSave' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::_directory' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::_listViewBoxBuffer' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::_session' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::ButtonAddDir' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::ButtonExit' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::ButtonSave' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::Directory' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::DisplayedImagePath' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::init' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::save' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveModel::ViewSaveModel' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow' -  (Class)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::_contentLoaded' -  (Property)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::Button_Click' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::Button_Click::e' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::Button_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::connectionId' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::target' -  (Parameter)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::SnifferMC::ViewSaveWindow::ViewSaveWindow' -  (Operation)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Byte' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections::Generic::List&lt;IPAddreData‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections::ObjectModel' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections::ObjectModel::ObservableCollection' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections::ObjectModel::ObservableCollection&lt;IPAddreData‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Collections::ObjectModel::ObservableCollection&lt;String‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Configuration' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Configuration::ApplicationSettingsBase' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Exception' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Globalization' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Globalization::CultureInfo' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Int16' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Net' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Net::IPAddress' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Net::NetworkInformation' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Net::NetworkInformation::NetworkInterface' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Net::Sockets' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Net::Sockets::ProtocolType' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Resources' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Resources::ResourceManager' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Runtime' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Runtime::Serialization' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Runtime::Serialization::IFormatter' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Timers' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Timers::ElapsedEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Timers::Timer' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::UInt16' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::UInt32' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows::Application' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows::Input' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows::Input::ICommand' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows::Markup' -  (Package)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows::Markup::IComponentConnector' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows::RoutedEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'snifUML::System::Windows::Window' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::App to snifUML::System::Windows::Application (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Int16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Net::IPAddress (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Net::Sockets::ProtocolType (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Net::IPAddress (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Byte (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::Int16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt32 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt32 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::IPAddreData to snifUML::System::UInt16 (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::SessionLoad to snifUML::SnifferMC::Resourse::SessionLoad (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::SessionLoad to snifUML::System::Collections::Generic::List&lt;IPAddreData‎&gt; (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::SessionSave to snifUML::SnifferMC::Resourse::SessionSave (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Resourse::SessionSave to snifUML::System::Collections::Generic::List&lt;IPAddreData‎&gt; (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Properties::Settings to snifUML::SnifferMC::Properties::Settings (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::Properties::Settings to snifUML::System::Configuration::ApplicationSettingsBase (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::View to snifUML::System::Windows::Markup::IComponentConnector (InterfaceRealization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::View to snifUML::System::Windows::Window (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Collections::ObjectModel::ObservableCollection&lt;IPAddreData‎&gt; (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderModel to snifUML::GalaSoft::MvvmLight::ViewModelBase (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderWindow to snifUML::System::Windows::Markup::IComponentConnector (InterfaceRealization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewLoaderWindow to snifUML::System::Windows::Window (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Collections::ObjectModel::ObservableCollection&lt;String‎&gt; (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Collections::ObjectModel::ObservableCollection&lt;IPAddreData‎&gt; (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewModel to snifUML::GalaSoft::MvvmLight::ViewModelBase (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewSaveModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewSaveModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewSaveModel to snifUML::System::Windows::Input::ICommand (Association)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewSaveModel to snifUML::GalaSoft::MvvmLight::ViewModelBase (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewSaveWindow to snifUML::System::Windows::Markup::IComponentConnector (InterfaceRealization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: snifUML::SnifferMC::ViewSaveWindow to snifUML::System::Windows::Window (Generalization)" />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="High" Text="(16) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="High" Text="(28) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-12-14T22:47:26" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

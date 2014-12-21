@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnifferMC", "SnifferMC\Snif
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "snifUML", "snifUML\snifUML.modelproj", "{1F495545-967F-4E56-AD83-97CC9EBD90A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSnifferMC", "TestSnifferMC\TestSnifferMC.csproj", "{6BB72C79-4C59-4E59-B271-3128656BAA51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1F495545-967F-4E56-AD83-97CC9EBD90A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F495545-967F-4E56-AD83-97CC9EBD90A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F495545-967F-4E56-AD83-97CC9EBD90A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB72C79-4C59-4E59-B271-3128656BAA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB72C79-4C59-4E59-B271-3128656BAA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB72C79-4C59-4E59-B271-3128656BAA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB72C79-4C59-4E59-B271-3128656BAA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

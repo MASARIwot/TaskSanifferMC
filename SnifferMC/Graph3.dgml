@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Solution" Bounds="742.758661221638,296.368026870524,72.24,25.96" Label="SnifferMC" />
+    <Node Id="(@2 @13)" Category="CodeSchema_ProjectItem" Bounds="566.296200547854,472.586173845775,261.258000077079,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Proycontec-Robots-Robot-documents.ico" Label="Proycontec-Robots-Robot-documents.ico" />
+    <Node Id="(@2 @14)" Category="CodeSchema_ProjectItem" Bounds="-6.30275819950031,505.30485422542,121.164666743746,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/IPAddreData.cs" Label="IPAddreData.cs" />
+    <Node Id="(@2 @15)" Category="CodeSchema_ProjectItem" Bounds="-157.502562022335,508.435225319171,119.651333410412,25.9980000770789" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/SessionLoad.cs" Label="SessionLoad.cs" />
+    <Node Id="(@2 @16)" Category="CodeSchema_ProjectItem" Bounds="-155.945052790768,451.712141823077,118.301333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/SessionSave.cs" Label="SessionSave.cs" />
+    <Node Id="(@2 @17)" Category="CodeSchema_ProjectItem" Bounds="283.04378825397,494.168938193882,138.104666743746,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/ViewModel/ViewSaveModel.cs" Label="ViewSaveModel.cs" />
+    <Node Id="(@2 @18)" Category="CodeSchema_ProjectItem" Bounds="283.043995773501,550.167046104039,149.904666743746,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/ViewModel/ViewLoaderModel.cs" Label="ViewLoaderModel.cs" />
+    <Node Id="(@2 @19)" Category="CodeSchema_ProjectItem" Bounds="283.043990076887,438.170830283726,113.601333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/ViewModel/ViewModel.cs" Label="ViewModel.cs" />
+    <Node Id="(@2 @20)" Category="CodeSchema_ProjectItem" Bounds="580.720666897904,331.995833487492,103.538000077079,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/App.xaml.cs" Label="App.xaml.cs" UseManualLocation="True" />
+    <Node Id="(@2 @21)" Category="CodeSchema_ProjectItem" Bounds="462.596003220101,126.869982900928,107.001333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/View/View.xaml.cs" Label="View.xaml.cs" UseManualLocation="True" />
+    <Node Id="(@2 @22)" Category="CodeSchema_ProjectItem" Bounds="446.597336633433,76.9312238766883,175.181333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/View/ViewSaveWindow.xaml.cs" Label="ViewSaveWindow.xaml.cs" UseManualLocation="True" />
+    <Node Id="(@2 @23)" Category="CodeSchema_ProjectItem" Bounds="462.596003201356,194.063623943269,186.981333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/View/ViewLoaderWindow.xaml.cs" Label="ViewLoaderWindow.xaml.cs" UseManualLocation="True" />
+    <Node Id="(@2 @24)" Category="CodeSchema_ProjectItem" Bounds="275.284671429559,380.613781236334,125.311333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Properties/AssemblyInfo.cs" Label="AssemblyInfo.cs" UseManualLocation="True" />
+    <Node Id="(@2 @3)" Category="CodeSchema_ProjectItem" Bounds="670.274200624933,416.588073768696,98.538000077079,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/App.config" Label="App.config" />
+    <Node Id="(@2 @4)" Category="CodeSchema_ProjectItem" Bounds="798.812333783075,413.973954347715,125.901333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/packages.config" Label="packages.config" />
+    <Node Id="(@2 @42)" Category="CodeSchema_ProjectItem" CodeSchemaProperty_IsExternal="True" FilePath="$(VsSolutionUri)/SnifferMC/Data/ModelIP.cs" Group="Collapsed" Label="ModelIP.cs" UseManualLocation="True" />
+    <Node Id="(@2 @43)" Category="CodeSchema_ProjectItem" Bounds="-20.0803662825892,393.308638405108,111.011333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/FileWorker.cs" Label="FileWorker.cs" />
+    <Node Id="(@2 @44)" Category="CodeSchema_ProjectItem" Bounds="-172.393455678748,578.114607643389,137.314666743746,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/FileExcelWorker.cs" Label="FileExcelWorker.cs" UseManualLocation="True" />
+    <Node Id="(@2 @45)" Category="CodeSchema_ProjectItem" Bounds="68.0000000000003,453.612779742543,157.284666743746,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Properties/Resources.Designer.cs" Label="Resources.Designer.cs" UseManualLocation="True" />
+    <Node Id="(@2 @46)" Category="CodeSchema_ProjectItem" Bounds="68.0000000000003,337.614479665464,146.471333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Properties/Settings.Designer.cs" Label="Settings.Designer.cs" UseManualLocation="True" />
+    <Node Id="(@2 @47)" Category="CodeSchema_ProjectItem" Bounds="-7.64370856774542,449.306746315264,118.661333410412,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/Comparatos.cs" Label="Comparatos.cs" />
+    <Node Id="(@2 @48)" Category="CodeSchema_ProjectItem" CodeSchemaProperty_IsExternal="True" FilePath="$(VsSolutionUri)/SnifferMC/Data/IpAdapters.cs" Group="Collapsed" Label="IpAdapters.cs" UseManualLocation="True" />
+    <Node Id="(@2 @49)" Category="CodeSchema_ProjectItem" Bounds="-155.945039350318,395.714033912921,105.864666743746,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/EnumSort.cs" Label="EnumSort.cs" />
+    <Node Id="(@2 @50)" Category="CodeSchema_ProjectItem" CodeSchemaProperty_IsExternal="True" FilePath="$(VsSolutionUri)/SnifferMC/Data/ModelIP.Context.cs" Group="Collapsed" Label="ModelIP.Context.cs" UseManualLocation="True" />
+    <Node Id="(@2 @55)" Category="ProjectFolder" Bounds="566.296200547854,416.588073768696,73.9780000770791,25.998000077079" FilePath="$(VsSolutionUri)/SnifferMC/Image/" Label="Image">
+      <Category Ref="CodeSchema_ProjectItem" />
+    </Node>
+    <Node Id="(@62 @63 @64 Member=(Name=AddDate OverloadingParameters=[(@62 Namespace=SnifferMC.Resourse Type=IPAddreData)]))" Category="CodeSchema_Method" Bounds="50.8266338968594,507.221471887284,82.74739,25.9598080000001" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="AddDate" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=(Name=ClearDbTable OverloadingParameters=[@67]))" Category="CodeSchema_Method" Bounds="189.1796072252,563.181379887284,106.995872666667,25.9598080000001" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="ClearDbTable" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=(Name=SQLuserCommand OverloadingParameters=[@67]))" Category="CodeSchema_Method" Bounds="79.9607778968594,619.141287887285,134.500370666667,25.959808" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="SQLuserCommand" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=(Name=SaveDate OverloadingParameters=[(@66 Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(@62 Namespace=SnifferMC.Resourse Type=IPAddreData)]))]))" Category="CodeSchema_Method" Bounds="163.574023896859,507.221471887284,85.376864,25.9598080000001" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="SaveDate" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=(Name=UpdateDate OverloadingParameters=[(@66 Namespace=System Type=Int32),@67,@67,@67,@67,@67,@67]))" Category="CodeSchema_Method" Bounds="59.4956052252005,563.181379887284,99.684002,25.9598080000001" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="UpdateDate" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=ClearDbTable)" Category="CodeSchema_Method" Bounds="-57.0350947698076,619.141287887285,106.995872666667,25.959808" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="ClearDbTable" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=Dispose)" Category="CodeSchema_Method" Bounds="-57.0517301031406,507.221471887284,77.878364,25.9598080000001" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="Dispose" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=LoadData)" Category="CodeSchema_Method" Bounds="-57.0610227747996,563.181379887284,86.5566279999999,25.9598080000001" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="LoadData" UseManualLocation="True" />
+    <Node Id="(@62 @63 @64 Member=getId)" Category="CodeSchema_Property" Bounds="-57.0184594364736,675.101195887284,86.1291083084241,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="getId" UseManualLocation="True" />
+    <Node Id="(@62 Namespace=SnifferMC.Data Type=DbProcessing)" Category="CodeSchema_Class" Bounds="-5.07873695490326,561.29840005565,133.159898079999,25.0074480000001" CodeSchemaProperty_IsPublic="True" CommonLabel="DbProcessing" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DbProcessing" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///D:/Task_2/FINAL/SnifferMC/SnifferMC/Data/Resourses/SaveDateDb.cs StartLineNumber=13 StartCharacterOffset=4 EndLineNumber=13 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="(Namespace=SnifferMC)" Category="CodeSchema_Namespace" Bounds="734.258724032269,358.013883855526,89.24,25.96" Icon="CodeSchema_Namespace" Label="SnifferMC" />
+    <Node Id="@10" Category="CodeSchema_ProjectItem" Bounds="225.349066251521,138.111103031788,181.944666743746,25" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/View/ViewSaveWindow.xaml" Group="Collapsed" Label="ViewSaveWindow.xaml" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_ProjectItem" Bounds="220.354805825597,249.064935073278,193.744666743745,25.0000000000001" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/View/ViewLoaderWindow.xaml" Group="Collapsed" Label="ViewLoaderWindow.xaml" UseManualLocation="True" />
+    <Node Id="@41" Category="ProjectFolder" Bounds="568.914002381446,361.587973768696,114.768000077079,24.9999999999999" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/Properties/" Group="Collapsed" Label="Properties" UseManualLocation="True">
+      <Category Ref="CodeSchema_ProjectItem" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_ProjectItem" Bounds="48.0000000000003,297.614379665464,186.471333410412,85.9982000770791" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/Properties/Settings.settings" Group="Expanded" Label="Settings.settings" UseManualLocation="True" />
+    <Node Id="@54" Category="CodeSchema_ProjectItem" Bounds="48.0000000000003,413.612679742542,197.284666743746,85.998200077079" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/Properties/Resources.resx" Group="Expanded" Label="Resources.resx" UseManualLocation="True" />
+    <Node Id="@57" Category="ProjectFolder" Bounds="-192.39345465865,353.307708158258,343.668000077079,308.005787897391" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/Resourse/" Group="Expanded" Label="Resourse" UseManualLocation="True">
+      <Category Ref="CodeSchema_ProjectItem" />
+    </Node>
+    <Node Id="@59" Category="ProjectFolder" Bounds="263.04378825397,398.170730283726,189.904874263277,197.994415897391" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/ViewModel/" Group="Expanded" Label="ViewModel" UseManualLocation="True">
+      <Category Ref="CodeSchema_ProjectItem" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_ProjectItem" Bounds="578.516220482144,306.587873768696,110.301333410412,25" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/App.xaml" Group="Collapsed" Label="App.xaml" UseManualLocation="True" />
+    <Node Id="@61" Category="ProjectFolder" Bounds="200.354805825597,98.1110030317877,233.744666743745,195.954032041491" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/View/" Group="Expanded" Label="View" UseManualLocation="True">
+      <Category Ref="CodeSchema_ProjectItem" />
+    </Node>
+    <Node Id="@65" Category="CodeSchema_Interface" Bounds="-5.07878791490356,616.31339605565,136.353333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="IDbProcessing" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="9" Group="Collapsed" Icon="CodeSchema_Interface" Label="IDbProcessing" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///D:/Task_2/FINAL/SnifferMC/SnifferMC/Data/InterfaceDb/IDbProcessing.cs StartLineNumber=5 StartCharacterOffset=4 EndLineNumber=5 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_ProjectItem" Bounds="230.360483309162,193.111203031788,113.771314077079,25.0121996400154" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/SnifferMC/View/View.xaml" Group="Collapsed" Label="View.xaml" UseManualLocation="True" />
+    <Node Id="BuisnesLogic/Data" Category="Comment" Bounds="1.6503759765625,231.670090486132,123.97,25.96" Label="Buisnes Logic /Data" UseManualLocation="True" />
+    <Node Id="PresentationLogic" Category="Comment" Bounds="283.46494532017,342.210706721804,117.78,25.96" Label="Presentation Logic" UseManualLocation="True" />
+    <Node Id="UILogic" Category="Comment" Bounds="286.924072062175,42.1509030317878,60.1766666666667,25.96" Label="UI logic" UseManualLocation="True" />
+    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="566.444275399909,251.587773768696,86.99,25" Group="Collapsed" Label="Externals" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="(Namespace=SnifferMC)" Category="Contains" Bounds="778.878674874337,322.230499148979,2.65873494527114E-05,26.832172206526" />
+    <Link Source="@10" Target="(@2 @22)" Category="Contains" FetchingParent="@10" />
+    <Link Source="@12" Target="(@2 @23)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@41" Target="(@2 @24)" Category="Contains" FetchingParent="@41" />
+    <Link Source="@41" Target="@52" Category="Contains" FetchingParent="@41" />
+    <Link Source="@41" Target="@54" Category="Contains" FetchingParent="@41" />
+    <Link Source="@52" Target="(@2 @46)" Category="Contains" FetchingParent="@52" />
+    <Link Source="@54" Target="(@2 @45)" Category="Contains" FetchingParent="@54" />
+    <Link Source="@57" Target="(@2 @14)" Category="Contains" FetchingParent="@57" />
+    <Link Source="@57" Target="(@2 @15)" Category="Contains" FetchingParent="@57" />
+    <Link Source="@57" Target="(@2 @16)" Category="Contains" FetchingParent="@57" />
+    <Link Source="@57" Target="(@2 @43)" Category="Contains" FetchingParent="@57" />
+    <Link Source="@57" Target="(@2 @44)" Category="Contains" FetchingParent="@57" />
+    <Link Source="@57" Target="(@2 @47)" Category="Contains" FetchingParent="@57" />
+    <Link Source="@57" Target="(@2 @49)" Category="Contains" FetchingParent="@57" />
+    <Link Source="@57" Target="(@62 Namespace=SnifferMC.Data Type=DbProcessing)" Category="Contains" />
+    <Link Source="@57" Target="@59" Bounds="151.274551391602,494.371948242188,102.784072875977,13.2240600585938" />
+    <Link Source="@57" Target="@65" Category="Contains" />
+    <Link Source="@59" Target="(@2 @17)" Category="Contains" FetchingParent="@59" />
+    <Link Source="@59" Target="(@2 @18)" Category="Contains" FetchingParent="@59" />
+    <Link Source="@59" Target="(@2 @19)" Category="Contains" FetchingParent="@59" />
+    <Link Source="@59" Target="@57" Bounds="160.244049072266,501.185485839844,102.799743652344,13.0015869140625" />
+    <Link Source="@59" Target="@61" Bounds="392.329956054688,302.370819091797,18.5692138671875,95.7998962402344" />
+    <Link Source="@6" Target="(@2 @20)" Category="Contains" FetchingParent="@6" />
+    <Link Source="@61" Target="@10" Category="Contains" FetchingParent="@61" />
+    <Link Source="@61" Target="@12" Category="Contains" FetchingParent="@61" />
+    <Link Source="@61" Target="@59" Bounds="395.472839355469,294.065032958984,20.7606506347656,95.2266845703125" />
+    <Link Source="@61" Target="@8" Category="Contains" FetchingParent="@61" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=(Name=AddDate OverloadingParameters=[(@62 Namespace=SnifferMC.Resourse Type=IPAddreData)]))" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=(Name=ClearDbTable OverloadingParameters=[@67]))" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=(Name=SQLuserCommand OverloadingParameters=[@67]))" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=(Name=SaveDate OverloadingParameters=[(@66 Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(@62 Namespace=SnifferMC.Resourse Type=IPAddreData)]))]))" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=(Name=UpdateDate OverloadingParameters=[(@66 Namespace=System Type=Int32),@67,@67,@67,@67,@67,@67]))" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=ClearDbTable)" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=Dispose)" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=LoadData)" Category="Contains" FetchingParent="@65" />
+    <Link Source="@65" Target="(@62 @63 @64 Member=getId)" Category="Contains" FetchingParent="@65" />
+    <Link Source="@8" Target="(@2 @21)" Category="Contains" FetchingParent="@8" />
+    <Link Source="BuisnesLogic/Data" Target="@57" Bounds="31.5528169513256,257.630093078613,27.9218692238367,87.1071576649218" />
+    <Link Source="PresentationLogic" Target="@59" Bounds="343.784923965886,368.170704345703,2.31948281809332,21.0541497041615" />
+    <Link Source="UILogic" Target="@61" Bounds="317.032179102775,68.1109030317878,0.0319915282350394,21.0001104433197" />
+    <Link Source="_standardGraphExternalsGroup" Target="(@2 @42)" Category="Contains" />
+    <Link Source="_standardGraphExternalsGroup" Target="(@2 @48)" Category="Contains" />
+    <Link Source="_standardGraphExternalsGroup" Target="(@2 @50)" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_ProjectItem" Label="Project Item" BasedOn="File" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="File" NavigationActionLabel="Project Items" />
+    <Category Id="CodeSchema_Property" Label="Property" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Properties" />
+    <Category Id="CodeSchema_Solution" Label="Solution" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" NavigationActionLabel="Solutions" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Externals" Label="Externals" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Externals" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="ProjectFolder" Label="Project Folder" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" NavigationActionLabel="Folders" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Is External" Description="Flag indicating whether this node is considered external" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="File" Label="File" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Generic Arguments" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" />
+    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/SnifferMC.sln" />
+    <Alias n="2" Uri="Assembly=$(VsSolutionUri)/SnifferMC/SnifferMC.csproj" />
+    <Alias n="3" Uri="File=$(VsSolutionUri)/SnifferMC/App.config" />
+    <Alias n="4" Uri="File=$(VsSolutionUri)/SnifferMC/packages.config" />
+    <Alias n="5" Uri="File=$(VsSolutionUri)/SnifferMC/App.xaml" />
+    <Alias n="6" Id="(@2 @5)" />
+    <Alias n="7" Uri="File=$(VsSolutionUri)/SnifferMC/View/View.xaml" />
+    <Alias n="8" Id="(@2 @7)" />
+    <Alias n="9" Uri="File=$(VsSolutionUri)/SnifferMC/View/ViewSaveWindow.xaml" />
+    <Alias n="10" Id="(@2 @9)" />
+    <Alias n="11" Uri="File=$(VsSolutionUri)/SnifferMC/View/ViewLoaderWindow.xaml" />
+    <Alias n="12" Id="(@2 @11)" />
+    <Alias n="13" Uri="File=$(VsSolutionUri)/SnifferMC/Proycontec-Robots-Robot-documents.ico" />
+    <Alias n="14" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/IPAddreData.cs" />
+    <Alias n="15" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/SessionLoad.cs" />
+    <Alias n="16" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/SessionSave.cs" />
+    <Alias n="17" Uri="File=$(VsSolutionUri)/SnifferMC/ViewModel/ViewSaveModel.cs" />
+    <Alias n="18" Uri="File=$(VsSolutionUri)/SnifferMC/ViewModel/ViewLoaderModel.cs" />
+    <Alias n="19" Uri="File=$(VsSolutionUri)/SnifferMC/ViewModel/ViewModel.cs" />
+    <Alias n="20" Uri="File=$(VsSolutionUri)/SnifferMC/App.xaml.cs" />
+    <Alias n="21" Uri="File=$(VsSolutionUri)/SnifferMC/View/View.xaml.cs" />
+    <Alias n="22" Uri="File=$(VsSolutionUri)/SnifferMC/View/ViewSaveWindow.xaml.cs" />
+    <Alias n="23" Uri="File=$(VsSolutionUri)/SnifferMC/View/ViewLoaderWindow.xaml.cs" />
+    <Alias n="24" Uri="File=$(VsSolutionUri)/SnifferMC/Properties/AssemblyInfo.cs" />
+    <Alias n="40" Uri="File=$(VsSolutionUri)/SnifferMC/Properties/" />
+    <Alias n="41" Id="(@2 @40)" />
+    <Alias n="42" Uri="File=$(VsSolutionUri)/SnifferMC/Data/ModelIP.cs" />
+    <Alias n="43" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/FileWorker.cs" />
+    <Alias n="44" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/FileExcelWorker.cs" />
+    <Alias n="45" Uri="File=$(VsSolutionUri)/SnifferMC/Properties/Resources.Designer.cs" />
+    <Alias n="46" Uri="File=$(VsSolutionUri)/SnifferMC/Properties/Settings.Designer.cs" />
+    <Alias n="47" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/Comparatos.cs" />
+    <Alias n="48" Uri="File=$(VsSolutionUri)/SnifferMC/Data/IpAdapters.cs" />
+    <Alias n="49" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/EnumSort.cs" />
+    <Alias n="50" Uri="File=$(VsSolutionUri)/SnifferMC/Data/ModelIP.Context.cs" />
+    <Alias n="51" Uri="File=$(VsSolutionUri)/SnifferMC/Properties/Settings.settings" />
+    <Alias n="52" Id="(@2 @51)" />
+    <Alias n="53" Uri="File=$(VsSolutionUri)/SnifferMC/Properties/Resources.resx" />
+    <Alias n="54" Id="(@2 @53)" />
+    <Alias n="55" Uri="File=$(VsSolutionUri)/SnifferMC/Image/" />
+    <Alias n="56" Uri="File=$(VsSolutionUri)/SnifferMC/Resourse/" />
+    <Alias n="57" Id="(@2 @56)" />
+    <Alias n="58" Uri="File=$(VsSolutionUri)/SnifferMC/ViewModel/" />
+    <Alias n="59" Id="(@2 @58)" />
+    <Alias n="60" Uri="File=$(VsSolutionUri)/SnifferMC/View/" />
+    <Alias n="61" Id="(@2 @60)" />
+    <Alias n="62" Uri="Assembly=$(652bdb4f-a492-4887-83f4-a462eee8914e.OutputPathUri)" />
+    <Alias n="63" Id="Namespace=SnifferMC.Data.Resourses" />
+    <Alias n="64" Id="Type=IDbProcessing" />
+    <Alias n="65" Id="(@62 @63 @64)" />
+    <Alias n="66" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="67" Id="(@66 Namespace=System Type=String)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="652bdb4f-a492-4887-83f4-a462eee8914e.OutputPathUri" Value="file:///D:/Task_2/FINAL/SnifferMC/SnifferMC/bin/Debug/SnifferMC.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolution" Value="D:\Task_2\FINAL\SnifferMC" />
+    <Path Id="VsSolutionUri" Value="file:///D:/Task_2/FINAL/SnifferMC" />
+  </Paths>
+</DirectedGraph>

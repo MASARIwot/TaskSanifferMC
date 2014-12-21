@@ -1,0 +1,34 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Class="SnifferMC.ViewChartWindow"
+        Title="ViewChartWindow" Height="532.5" Width="658">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="381" Margin="272,10,0,0" VerticalAlignment="Top" Width="805">
+
+            <Expander Margin="5" Header="Chart" Padding="5" BorderBrush="LightBlue" BorderThickness="2" Height="35">
+
+
+
+
+            </Expander>
+
+        </StackPanel>
+        <chartingToolkit:Chart HorizontalAlignment="Left" Margin="10,10,0,0" Title="Chart Title" VerticalAlignment="Top" Width="630" Height="482">
+            <chartingToolkit:Chart.DataContext>
+                <PointCollection>1,10 2,20 3,30 4,40</PointCollection>
+            </chartingToolkit:Chart.DataContext>
+            <chartingToolkit:LineSeries DependentValueBinding="{x:Null}" DependentValuePath="{x:Null}" IndependentValueBinding="{x:Null}" IndependentValuePath="{x:Null}" SeriesHost="{x:Null}">
+                <chartingToolkit:LineSeries.Clip>
+                    <RectangleGeometry/>
+                </chartingToolkit:LineSeries.Clip>
+            </chartingToolkit:LineSeries>
+            <chartingToolkit:LineSeries DependentValueBinding="{x:Null}" DependentValuePath="{x:Null}" IndependentValueBinding="{x:Null}" IndependentValuePath="{x:Null}" SeriesHost="{x:Null}">
+                <chartingToolkit:LineSeries.Clip>
+                    <RectangleGeometry/>
+                </chartingToolkit:LineSeries.Clip>
+            </chartingToolkit:LineSeries>
+        </chartingToolkit:Chart>
+
+    </Grid>
+</Window>
